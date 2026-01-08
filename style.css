@@ -15,6 +15,7 @@
 
 /* navbar button */
 .btn-nav{
+    display: flex;
     border-radius: 4px;
     background-color: #469165;
     padding: 12px 16px;
@@ -22,6 +23,7 @@
     font-size: 16px;
     font-weight: 600;
     border: none;
+    cursor: pointer;
 }
 
 /* navbar menu */
@@ -82,8 +84,6 @@ nav{
     line-height: 32px;
     margin-bottom: 32px;
 }
-/* ??? need fix */
-/* .hero-c  */
 
 /* hero buttons */
 
@@ -96,6 +96,15 @@ nav{
     font-size: 16px;
     color: #469165;
     margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.earlyAccess{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-w-arrow{
@@ -105,7 +114,9 @@ nav{
     color: #FFF;
     font-size: 16px;
     font-weight: 600;
-    border: none;
+    border: 1px solid #469165;
+    margin-right: 10px;
+    cursor: pointer;
 }
 
 .btn-w-play{
@@ -116,6 +127,7 @@ nav{
     color: #FFF;
     border: 1px solid white;
     background: transparent;
+    cursor: pointer;
 }
 
 /* app section 1 */
@@ -218,19 +230,18 @@ nav{
     margin-bottom: 16px;
 }
 
-.app-section-2 .text-section p{
+.app-section-2 .text-section > p{
     color: #627382;
     font-size: 16px;
     font-weight: 400px;
     margin-bottom: 40px;
 }
 
-.app-section-2 .text-section ul li{
-    font-size: 16px;
-    font-weight: 500px;
-    color: #001931;
+.list{
+    display: flex;
+    align-items: center;
+    gap: 5px;
     margin-bottom: 16px;
-    margin-left: 25px;
 }
 
 /* app section 3 */
@@ -271,6 +282,7 @@ nav{
     font-weight: 600;
     border: none;
     margin-bottom: 16px;
+    cursor: pointer;
 }
 
 /* footer */
@@ -295,11 +307,11 @@ footer{
 }
 
 .copy-right{
-    color: white;
+    color: #FAFAFA;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
     padding-top: 30px;
-    border-top: 1px solid #E5E7EB;
+    border-top: 1px solid #e5e7eb16;
 }
 
