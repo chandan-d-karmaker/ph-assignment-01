@@ -55,11 +55,35 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
     padding: 160px 0;
+    /* margin-bottom: 60px; */
 }
 
 .hero-content{
     text-align: center;
+    /* align-items: center; */
 }
+
+.hero-content h1{
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    margin-bottom: 16px;
+}
+
+.hero-content h1 span{
+    color: #30B868;
+}
+
+.hero-content p{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 32px;
+}
+/* ??? need fix */
+/* .hero-c  */
 
 /* hero buttons */
 
@@ -75,5 +99,31 @@ nav{
 }
 
 .btn-w-arrow{
+    border-radius: 4px;
+    background-color: #469165;
+    padding: 12px 16px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+}
 
+.btn-w-play{
+    border-radius: 4px;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFF;
+    border: 1px solid white;
+    background: transparent;
+}
+
+/* app section 1 */
+
+.app-section-1{
+    padding: 120px 0;
+}
+
+app-section-1-title{
+    text-align: center;
 }
